@@ -51,10 +51,9 @@
         android:id="@+id/edit_senha"
         style="@style/Edit_text"
         android:hint="Senha"
-        android:inputType="numberPassword"
         android:drawableRight="@drawable/ic_eye"
-        app:layout_constraintStart_toStartOf="@id/containerComponents"
-        app:layout_constraintEnd_toEndOf="@id/containerComponents"
+        app:layout_constraintStart_toStartOf="@+id/containerComponents"
+        app:layout_constraintEnd_toEndOf="@+id/containerComponents"
         app:layout_constraintTop_toBottomOf="@id/edit_email"
         />
     
@@ -82,14 +81,17 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/text_cadastro"
-        app:layout_constraintTop_toBottomOf="@+id/progressbar"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         android:textSize="20sp"
         android:textColor="@color/Navy"
         android:textStyle="bold"
         android:layout_marginTop="20dp"
         android:layout_marginBottom="30dp"
+        app:layout_constraintTop_toBottomOf="@+id/progressbar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+
+
         />
 
 
